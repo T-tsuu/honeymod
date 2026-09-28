@@ -1,0 +1,11 @@
+{
+    "Name": "Honey Anniversary",
+    "Author": "Casanova",
+    "Version": "1.0.0",
+    "Description": "A one-year anniversary gift mod. Adds Honey, a romanceable newcomer to the valley, and tells our story through heart events, letters, and marriage. Happy anniversary, my love.",
+    "UniqueID": "Ihimiwen",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

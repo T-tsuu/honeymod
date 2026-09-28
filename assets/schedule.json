@@ -1,0 +1,18 @@
+{
+    "Mon": "900 BusStop 4 5 0/1030 Beach 24 26 2/1300 BusStop 4 5 0/1500 Beach 38 32 0/1900 BusStop 4 5 2",
+    "Tue": "900 BusStop 4 5 0/1100 Beach 30 40 2/1600 BusStop 4 5 0/2000 BusStop 4 5 2",
+    "Wed": "900 BusStop 4 5 0/1200 Beach 24 26 0/1700 BusStop 4 5 0/2000 BusStop 4 5 2",
+    "Thu": "900 BusStop 4 5 0/1000 BusStop 4 5 0/1400 Beach 38 32 2/1900 BusStop 4 5 2",
+    "Fri": "900 BusStop 4 5 0/1300 Beach 24 26 2/1800 BusStop 4 5 0/2100 BusStop 4 5 2",
+    "Sat": "1000 BusStop 4 5 0/1200 Beach 30 40 2/1700 Beach 20 30 0/2000 BusStop 4 5 2",
+    "Sun": "900 BusStop 4 5 0/1130 Beach 24 26 2/1600 BusStop 4 5 0/1900 BusStop 4 5 2",
+    "rain": "900 BusStop 4 5 0/1500 BusStop 4 5 0/2100 BusStop 4 5 2",
+    "summer_27": "900 BusStop 4 5 0/1500 BusStop 4 5 0/2000 BusStop 4 5 2",
+    "marriage_Mon": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep",
+    "marriage_Tue": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep",
+    "marriage_Wed": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep",
+    "marriage_Thu": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep",
+    "marriage_Fri": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep",
+    "marriage_Sat": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep",
+    "marriage_Sun": "620 FarmHouse 3 4 2/1900 FarmHouse 3 4 2 ihimiwen_honey_sleep"
+}

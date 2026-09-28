@@ -1,0 +1,192 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/Ihimiwen_Honey",
+            "FromFile": "assets/characters/Honey.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Ihimiwen_Honey",
+            "FromFile": "assets/portraits/Honey.png"
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Ihimiwen_Honey": {
+                    "DisplayName": "{{i18n: npc.displayname}}",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "BirthSeason": "summer",
+                    "BirthDay": 27,
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "BusStop",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ]
+                }
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Ihimiwen_Honey": "{{i18n: gift.love}}/340 614 268 220 395 72 376 454 348/{{i18n: gift.like}}/18 20 22 24 88 414 296 279 269/{{i18n: gift.dislike}}/16 346 330 80/{{i18n: gift.hate}}/167/{{i18n: gift.neutral}}/"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Ihimiwen_Honey",
+            "FromFile": "assets/dialogue.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ihimiwen_Honey",
+            "Entries": {
+                "Introduction": "{{i18n: dialogue.intro}}",
+                "Mon": "{{i18n: dialogue.mon}}",
+                "Tue": "{{i18n: dialogue.tue}}",
+                "Wed": "{{i18n: dialogue.wed}}",
+                "Thu": "{{i18n: dialogue.thu}}",
+                "Fri": "{{i18n: dialogue.fri}}",
+                "Sat": "{{i18n: dialogue.sat}}",
+                "Sun": "{{i18n: dialogue.sun}}",
+                "27_*": "{{i18n: dialogue.bday}}",
+                "AcceptBouquet": "{{i18n: dialogue.acceptbouquet}}",
+                "AcceptBirthdayGift": "{{i18n: dialogue.acceptgift}}",
+                "RejectBouquet": "{{i18n: dialogue.rejectbouquet}}",
+                "breakUp": "{{i18n: dialogue.breakup}}",
+                "divorced": "{{i18n: dialogue.divorced}}",
+                "SpouseGiftJealous": "{{i18n: dialogue.jealous}}"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+                "Ihimiwen_Honey": "{{i18n: dialogue.rainy}}"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueIhimiwen_Honey",
+            "FromFile": "assets/marriagedialogue.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueIhimiwen_Honey",
+            "Entries": {
+                "Rainy_Day_0": "{{i18n: marriage.rain0}}",
+                "Rainy_Day_1": "{{i18n: marriage.rain1}}",
+                "Rainy_Day_2": "{{i18n: marriage.rain2}}",
+                "Rainy_Day_3": "{{i18n: marriage.rain3}}",
+                "Rainy_Day_4": "{{i18n: marriage.rain4}}",
+                "summer_27": "{{i18n: marriage.sun27}}",
+                "Indoor_Night_0": "{{i18n: marriage.indoor0}}",
+                "Indoor_Night_1": "{{i18n: marriage.indoor1}}",
+                "Indoor_Night_2": "{{i18n: marriage.indoor2}}",
+                "Rainy_Night_0": "{{i18n: marriage.rainynight0}}",
+                "Rainy_Night_1": "{{i18n: marriage.rainynight1}}",
+                "funLeave_Ihimiwen_Honey": "{{i18n: marriage.funleave}}",
+                "funReturn_Ihimiwen_Honey": "{{i18n: marriage.funreturn}}",
+                "spouseRoom_Ihimiwen_Honey": "{{i18n: marriage.spouseroom}}",
+                "patio_Ihimiwen_Honey": "{{i18n: marriage.patio}}",
+                "Outdoor_Ihimiwen_Honey": "{{i18n: marriage.outdoor}}",
+                "fall_Ihimiwen_Honey": "{{i18n: marriage.good2}}",
+                "Good_0": "{{i18n: marriage.good0}}",
+                "Good_1": "{{i18n: marriage.good1}}",
+                "Good_2": "{{i18n: marriage.good2}}",
+                "Neutral_0": "{{i18n: marriage.neutral0}}",
+                "Bad_0": "{{i18n: marriage.bad0}}",
+                "OneKid_0": "{{i18n: marriage.onekid0}}",
+                "TwoKids_0": "{{i18n: marriage.twokids0}}",
+                "SpouseStardrop": "{{i18n: marriage.stardrop}}",
+                "NoBed_0": "{{i18n: marriage.nobed0}}"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Ihimiwen_Honey",
+            "FromFile": "assets/schedule.json"
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Ihimiwen_Honey0": "{{i18n: engaged0}}",
+                "Ihimiwen_Honey1": "{{i18n: engaged1}}"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Ihimiwen_Honey_Engaged": "{{i18n: engaged}}",
+                "Ihimiwen_Honey_AfterWedding": "{{i18n: marriage.afterwedding}}"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "ihimiwen_honey_sleep": "50/50/50"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "Ihimiwen_HoneyIntro": "{{i18n: mail.intro}}",
+                "Ihimiwen_HoneyDate1": "{{i18n: mail.date1}}",
+                "Ihimiwen_HoneyStar": "{{i18n: mail.star}}",
+                "Ihimiwen_HoneyCharm": "{{i18n: mail.charm}}",
+                "Ihimiwen_HoneyChapter": "{{i18n: mail.chapter}}",
+                "Ihimiwen_HoneyPendantHint": "{{i18n: mail.ring}}"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "Ihimiwen_Honey_Intro/DaysPlayed 2/Time 600 2200": "spring/34 15/farmer 34 16 2 Ihimiwen_Honey 34 13 2/skippable/viewport 34 15 true/pause 600/emote Ihimiwen_Honey 16/pause 500/move Ihimiwen_Honey 0 1 2/move Ihimiwen_Honey 0 1 2/pause 300/faceDirection farmer 0/pause 600/speak Ihimiwen_Honey \"{{i18n: events.intro.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.intro.2}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.intro.3}}\"/pause 500/emote Ihimiwen_Honey 16/friendship Ihimiwen_Honey 60/mail Ihimiwen_HoneyIntro/end",
+                "Ihimiwen_Honey_Anniversary_Night/Spouse Ihimiwen_Honey/Time 2000 2600": "nightTime/34 15/farmer 34 16 2 Ihimiwen_Honey 34 13 2/skippable/viewport 34 14 true/pause 700/emote Ihimiwen_Honey 16/pause 500/speak Ihimiwen_Honey \"{{i18n: events.after.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.after.2}}\"/pause 400/emote farmer 16/pause 500/speak Ihimiwen_Honey \"{{i18n: events.after.3}}\"/pause 500/end"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "Ihimiwen_Honey_Date1/Friendship Ihimiwen_Honey 500/Time 1500 2000/!Spouse Ihimiwen_Honey/!FestivalDay": "summer/22 26/farmer 24 26 2 Ihimiwen_Honey 20 26 1/skippable/viewport 22 26 true/pause 700/faceDirection farmer 3/pause 500/speak Ihimiwen_Honey \"{{i18n: events.date1.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.date1.2}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.date1.3}}\"/pause 400/friendship Ihimiwen_Honey 50/mail Ihimiwen_HoneyDate1/end",
+                "Ihimiwen_Honey_Star/Friendship Ihimiwen_Honey 1000/Time 1900 2400/!Spouse Ihimiwen_Honey/!FestivalDay": "nightTime/26 26/farmer 28 26 2 Ihimiwen_Honey 24 26 1/skippable/viewport 26 26 true/ambientLight 40 40 80/pause 700/faceDirection farmer 3/pause 500/speak Ihimiwen_Honey \"{{i18n: events.star.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.star.2}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.star.3}}\"/pause 400/emote Ihimiwen_Honey 16/mail Ihimiwen_HoneyStar/end",
+                "Ihimiwen_Honey_Charm/Friendship Ihimiwen_Honey 1500/Time 1200 1900/!Spouse Ihimiwen_Honey/!FestivalDay": "summer/30 26/farmer 32 26 2 Ihimiwen_Honey 27 26 1/skippable/viewport 30 26 true/pause 700/faceDirection farmer 3/pause 500/speak Ihimiwen_Honey \"{{i18n: events.charm.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.charm.2}}\"/pause 400/addItem (O)340/pause 400/speak Ihimiwen_Honey \"{{i18n: events.charm.3}}\"/pause 400/mail Ihimiwen_HoneyCharm/end",
+                "Ihimiwen_Honey_Chapter/Friendship Ihimiwen_Honey 2000/Time 600 1000/!Spouse Ihimiwen_Honey/!FestivalDay": "spring/22 30/farmer 24 30 2 Ihimiwen_Honey 20 30 1/skippable/viewport 22 30 true/pause 700/faceDirection farmer 3/pause 500/speak Ihimiwen_Honey \"{{i18n: events.chapter.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.chapter.2}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.chapter.3}}\"/pause 400/emote farmer 8/mail Ihimiwen_HoneyChapter/end",
+                "Ihimiwen_Honey_Love/Friendship Ihimiwen_Honey 2500/Time 1900 2230/!Spouse Ihimiwen_Honey/!FestivalDay": "nightTime/22 26/farmer 24 26 2 Ihimiwen_Honey 20 26 1/skippable/viewport 22 26 true/pause 700/faceDirection farmer 3/pause 500/speak Ihimiwen_Honey \"{{i18n: events.love.1}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.love.2}}\"/pause 400/speak Ihimiwen_Honey \"{{i18n: events.love.3}}\"/pause 400/emote Ihimiwen_Honey 16/mail Ihimiwen_HoneyPendantHint/end"
+            }
+        }
+    ]
+}
