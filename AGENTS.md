@@ -19,7 +19,7 @@ assets/
   portraits/Honey.png       # dialogue portraits — 128x384, 6x 64x64 (neutral/happy/sad/blush/love/angry)
   dialogue.json             # empty base dict (entries added by content.json EditData)
   marriagedialogue.json     # empty base dict
-  schedule.json             # pre-marriage schedule (BusStop + Beach) + marriage (FarmHouse)
+  schedule.json             # Abigail-style schedule, every tile +1 X; home/sleep = BusStop 4 5
 ```
 
 > **Do not** commit `obsidian/`, `opencode.jsonc`, `_mcp_probe.md`, or any `*.py` scratch scripts.
@@ -45,7 +45,7 @@ assets/
 | Portraits | `assets/portraits/Honey.png` must be **128×384** (6 × 64×64 cells). Order: `$0` neutral, `$1` happy, `$2` sad, `$3` unique/blush, `$4` love, `$5` angry. |
 | Events | Unique string IDs prefixed `Ihimiwen_Honey_*`. Use `!FestivalDay` in Beach events. |
 | Gift tastes | `/`-separated 10-segment string. i18n tokens must never contain `/` (breaks parsing). |
-| Marriage schedules | `marriage_Mon`..`marriage_Sun` keys in `assets/schedule.json`. Spouse stays in `FarmHouse 3 4 2` (living room; cosmetically fine, fails gracefully). |
+| Schedules | `assets/schedule.json` mirrors vanilla Abigail's schedule, every tile offset **+1 X** (so they never stack). Keys: `rain`, `rain2`, `winter_15`, `marriage_Mon/Fri`, `fall_Mon`, `6`/`16`, `spring_4`, `Sun`, `11_6`/`25_6`/`11`/`25` → `GOTO spring`, `Wed`, `Fri`, `fall`/`winter`/`summer`/`spring`, `summer_27` (birthday). Home/sleep tile = `BusStop 4 5`. Animations used: `ihimiwen_honey_sleep`, `ihimiwen_honey_sit_down` (both defined in `Data/animationDescriptions`). Marriages `marriage_Mon`/`marriage_Fri`. |
 | Deployment | Copy only mod files into `Mods/` — exclude `obsidian/`, `.py`, `_mcp_probe*`, `AGENTS.md`. |
 
 ---

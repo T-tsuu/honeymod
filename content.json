@@ -151,7 +151,8 @@
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
-                "ihimiwen_honey_sleep": "50/50/50"
+                "ihimiwen_honey_sleep": "50/50/50",
+                "ihimiwen_honey_sit_down": "45 45 46 46/45 46/45 45"
             }
         },
 
